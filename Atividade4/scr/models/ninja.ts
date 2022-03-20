@@ -1,7 +1,7 @@
 import { personagem } from "./personagem";
 
 export class ninja extends personagem{
-    arma:string = 'Katana';
+    arma:boolean = true;
     agilidade:number = 0;
     constructor(name: string, tipo: string,reino: string , vestirTraje: string,aplicarGolpe: string ,aplicarSuperGolpe: string ,resistencia: string ,alcanceDeDano: string){
         super(name,tipo,reino,vestirTraje,aplicarGolpe,aplicarSuperGolpe,resistencia,alcanceDeDano)
